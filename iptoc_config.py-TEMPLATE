@@ -1,0 +1,10 @@
+# This is the configuration file for the GeoIP2 database paths.
+# The paths should be absolute paths to the database files.
+# The database files can be downloaded from https://dev.maxmind.com/geoip/geoip2/geolite2/
+# The database files should be placed in the 'db' folder.
+# The database files should be named 'GeoLite2-City.mmdb', 'GeoLite2-Country.mmdb' and 'GeoLite2-ASN.mmdb'
+# Insert the absolute paths where indicated below.
+# RENAME THIS FILE 'iptoc_config.py' by removing the '-TEMPLATE' from the filename.
+db_city_path = 'REPLACE WITH ABSOLUTE PATH TO GeoLite2-City.mmdb'
+db_country_path = 'REPLACE WITH ABSOLUTE PATH TO GeoLite2-Country.mmdb'
+db_asn_path = 'REPLACE WITH ABSOLUTE PATH TO GeoLite2-ASN.mmdb'
